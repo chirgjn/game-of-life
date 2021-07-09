@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  --size: 20px;
+}
+
+.cell {
+  background-color: white;
+  border: 1px solid black;
+  width: var(--size);
+  height: var(--size);
+  display: table-cell;
+  border-collapse: collapse;
+}
+.cell.live {
+  background-color: black;
+}
+
+.board {
+  display: table;
+  border: 1px solid black;
+}
+.row {
+  display: table-row;
+}
